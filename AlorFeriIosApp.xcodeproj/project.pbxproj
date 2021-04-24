@@ -13,6 +13,8 @@
 		BF618C9426347FCF0008A8F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF618C9326347FCF0008A8F7 /* Preview Assets.xcassets */; };
 		BF618C9F26347FCF0008A8F7 /* AlorFeriIosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF618C9E26347FCF0008A8F7 /* AlorFeriIosAppTests.swift */; };
 		BF618CAA26347FCF0008A8F7 /* AlorFeriIosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF618CA926347FCF0008A8F7 /* AlorFeriIosAppUITests.swift */; };
+		BF920B84263487DB00E72F72 /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF920B83263487DB00E72F72 /* BookData.swift */; };
+		BF920B8C2634924A00E72F72 /* BookDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF920B8B2634924A00E72F72 /* BookDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		BF618CA526347FCF0008A8F7 /* AlorFeriIosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlorFeriIosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF618CA926347FCF0008A8F7 /* AlorFeriIosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlorFeriIosAppUITests.swift; sourceTree = "<group>"; };
 		BF618CAB26347FCF0008A8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF920B83263487DB00E72F72 /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
+		BF920B8B2634924A00E72F72 /* BookDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				BF618C9026347FCF0008A8F7 /* Assets.xcassets */,
 				BF618C9526347FCF0008A8F7 /* Info.plist */,
 				BF618C9226347FCF0008A8F7 /* Preview Content */,
+				BF920B83263487DB00E72F72 /* BookData.swift */,
+				BF920B8B2634924A00E72F72 /* BookDetailsView.swift */,
 			);
 			path = AlorFeriIosApp;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF920B8C2634924A00E72F72 /* BookDetailsView.swift in Sources */,
+				BF920B84263487DB00E72F72 /* BookData.swift in Sources */,
 				BF618C8F26347FCD0008A8F7 /* ContentView.swift in Sources */,
 				BF618C8D26347FCD0008A8F7 /* AlorFeriIosAppApp.swift in Sources */,
 			);
