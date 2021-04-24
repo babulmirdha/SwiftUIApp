@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF618C8D26347FCD0008A8F7 /* AlorFeriIosAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF618C8C26347FCD0008A8F7 /* AlorFeriIosAppApp.swift */; };
+		BF618C8F26347FCD0008A8F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF618C8E26347FCD0008A8F7 /* ContentView.swift */; };
+		BF618C9126347FCF0008A8F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF618C9026347FCF0008A8F7 /* Assets.xcassets */; };
+		BF618C9426347FCF0008A8F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF618C9326347FCF0008A8F7 /* Preview Assets.xcassets */; };
+		BF618C9F26347FCF0008A8F7 /* AlorFeriIosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF618C9E26347FCF0008A8F7 /* AlorFeriIosAppTests.swift */; };
+		BF618CAA26347FCF0008A8F7 /* AlorFeriIosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF618CA926347FCF0008A8F7 /* AlorFeriIosAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF618C9B26347FCF0008A8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF618C8126347FCD0008A8F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF618C8826347FCD0008A8F7;
+			remoteInfo = AlorFeriIosApp;
+		};
+		BF618CA626347FCF0008A8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF618C8126347FCD0008A8F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF618C8826347FCD0008A8F7;
+			remoteInfo = AlorFeriIosApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF618C8926347FCD0008A8F7 /* AlorFeriIosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlorFeriIosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF618C8C26347FCD0008A8F7 /* AlorFeriIosAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlorFeriIosAppApp.swift; sourceTree = "<group>"; };
+		BF618C8E26347FCD0008A8F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF618C9026347FCF0008A8F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF618C9326347FCF0008A8F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF618C9526347FCF0008A8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF618C9A26347FCF0008A8F7 /* AlorFeriIosAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlorFeriIosAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF618C9E26347FCF0008A8F7 /* AlorFeriIosAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlorFeriIosAppTests.swift; sourceTree = "<group>"; };
+		BF618CA026347FCF0008A8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF618CA526347FCF0008A8F7 /* AlorFeriIosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlorFeriIosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF618CA926347FCF0008A8F7 /* AlorFeriIosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlorFeriIosAppUITests.swift; sourceTree = "<group>"; };
+		BF618CAB26347FCF0008A8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF618C8626347FCD0008A8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF618C9726347FCF0008A8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF618CA226347FCF0008A8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF618C8026347FCD0008A8F7 = {
+			isa = PBXGroup;
+			children = (
+				BF618C8B26347FCD0008A8F7 /* AlorFeriIosApp */,
+				BF618C9D26347FCF0008A8F7 /* AlorFeriIosAppTests */,
+				BF618CA826347FCF0008A8F7 /* AlorFeriIosAppUITests */,
+				BF618C8A26347FCD0008A8F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF618C8A26347FCD0008A8F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF618C8926347FCD0008A8F7 /* AlorFeriIosApp.app */,
+				BF618C9A26347FCF0008A8F7 /* AlorFeriIosAppTests.xctest */,
+				BF618CA526347FCF0008A8F7 /* AlorFeriIosAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF618C8B26347FCD0008A8F7 /* AlorFeriIosApp */ = {
+			isa = PBXGroup;
+			children = (
+				BF618C8C26347FCD0008A8F7 /* AlorFeriIosAppApp.swift */,
+				BF618C8E26347FCD0008A8F7 /* ContentView.swift */,
+				BF618C9026347FCF0008A8F7 /* Assets.xcassets */,
+				BF618C9526347FCF0008A8F7 /* Info.plist */,
+				BF618C9226347FCF0008A8F7 /* Preview Content */,
+			);
+			path = AlorFeriIosApp;
+			sourceTree = "<group>";
+		};
+		BF618C9226347FCF0008A8F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF618C9326347FCF0008A8F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF618C9D26347FCF0008A8F7 /* AlorFeriIosAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF618C9E26347FCF0008A8F7 /* AlorFeriIosAppTests.swift */,
+				BF618CA026347FCF0008A8F7 /* Info.plist */,
+			);
+			path = AlorFeriIosAppTests;
+			sourceTree = "<group>";
+		};
+		BF618CA826347FCF0008A8F7 /* AlorFeriIosAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF618CA926347FCF0008A8F7 /* AlorFeriIosAppUITests.swift */,
+				BF618CAB26347FCF0008A8F7 /* Info.plist */,
+			);
+			path = AlorFeriIosAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF618C8826347FCD0008A8F7 /* AlorFeriIosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF618CAE26347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "AlorFeriIosApp" */;
+			buildPhases = (
+				BF618C8526347FCD0008A8F7 /* Sources */,
+				BF618C8626347FCD0008A8F7 /* Frameworks */,
+				BF618C8726347FCD0008A8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlorFeriIosApp;
+			productName = AlorFeriIosApp;
+			productReference = BF618C8926347FCD0008A8F7 /* AlorFeriIosApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF618C9926347FCF0008A8F7 /* AlorFeriIosAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF618CB126347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "AlorFeriIosAppTests" */;
+			buildPhases = (
+				BF618C9626347FCF0008A8F7 /* Sources */,
+				BF618C9726347FCF0008A8F7 /* Frameworks */,
+				BF618C9826347FCF0008A8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF618C9C26347FCF0008A8F7 /* PBXTargetDependency */,
+			);
+			name = AlorFeriIosAppTests;
+			productName = AlorFeriIosAppTests;
+			productReference = BF618C9A26347FCF0008A8F7 /* AlorFeriIosAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF618CA426347FCF0008A8F7 /* AlorFeriIosAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF618CB426347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "AlorFeriIosAppUITests" */;
+			buildPhases = (
+				BF618CA126347FCF0008A8F7 /* Sources */,
+				BF618CA226347FCF0008A8F7 /* Frameworks */,
+				BF618CA326347FCF0008A8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF618CA726347FCF0008A8F7 /* PBXTargetDependency */,
+			);
+			name = AlorFeriIosAppUITests;
+			productName = AlorFeriIosAppUITests;
+			productReference = BF618CA526347FCF0008A8F7 /* AlorFeriIosAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF618C8126347FCD0008A8F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BF618C8826347FCD0008A8F7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BF618C9926347FCF0008A8F7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BF618C8826347FCD0008A8F7;
+					};
+					BF618CA426347FCF0008A8F7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BF618C8826347FCD0008A8F7;
+					};
+				};
+			};
+			buildConfigurationList = BF618C8426347FCD0008A8F7 /* Build configuration list for PBXProject "AlorFeriIosApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF618C8026347FCD0008A8F7;
+			productRefGroup = BF618C8A26347FCD0008A8F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF618C8826347FCD0008A8F7 /* AlorFeriIosApp */,
+				BF618C9926347FCF0008A8F7 /* AlorFeriIosAppTests */,
+				BF618CA426347FCF0008A8F7 /* AlorFeriIosAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF618C8726347FCD0008A8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF618C9426347FCF0008A8F7 /* Preview Assets.xcassets in Resources */,
+				BF618C9126347FCF0008A8F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF618C9826347FCF0008A8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF618CA326347FCF0008A8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF618C8526347FCD0008A8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF618C8F26347FCD0008A8F7 /* ContentView.swift in Sources */,
+				BF618C8D26347FCD0008A8F7 /* AlorFeriIosAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF618C9626347FCF0008A8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF618C9F26347FCF0008A8F7 /* AlorFeriIosAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF618CA126347FCF0008A8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF618CAA26347FCF0008A8F7 /* AlorFeriIosAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF618C9C26347FCF0008A8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF618C8826347FCD0008A8F7 /* AlorFeriIosApp */;
+			targetProxy = BF618C9B26347FCF0008A8F7 /* PBXContainerItemProxy */;
+		};
+		BF618CA726347FCF0008A8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF618C8826347FCD0008A8F7 /* AlorFeriIosApp */;
+			targetProxy = BF618CA626347FCF0008A8F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF618CAC26347FCF0008A8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF618CAD26347FCF0008A8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF618CAF26347FCF0008A8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AlorFeriIosApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AlorFeriIosApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alorferi.iosapp.AlorFeriIosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF618CB026347FCF0008A8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AlorFeriIosApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AlorFeriIosApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alorferi.iosapp.AlorFeriIosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF618CB226347FCF0008A8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlorFeriIosAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alorferi.iosapp.AlorFeriIosAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlorFeriIosApp.app/AlorFeriIosApp";
+			};
+			name = Debug;
+		};
+		BF618CB326347FCF0008A8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlorFeriIosAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alorferi.iosapp.AlorFeriIosAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlorFeriIosApp.app/AlorFeriIosApp";
+			};
+			name = Release;
+		};
+		BF618CB526347FCF0008A8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlorFeriIosAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alorferi.iosapp.AlorFeriIosAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlorFeriIosApp;
+			};
+			name = Debug;
+		};
+		BF618CB626347FCF0008A8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlorFeriIosAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alorferi.iosapp.AlorFeriIosAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlorFeriIosApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF618C8426347FCD0008A8F7 /* Build configuration list for PBXProject "AlorFeriIosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF618CAC26347FCF0008A8F7 /* Debug */,
+				BF618CAD26347FCF0008A8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF618CAE26347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "AlorFeriIosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF618CAF26347FCF0008A8F7 /* Debug */,
+				BF618CB026347FCF0008A8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF618CB126347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "AlorFeriIosAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF618CB226347FCF0008A8F7 /* Debug */,
+				BF618CB326347FCF0008A8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF618CB426347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "AlorFeriIosAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF618CB526347FCF0008A8F7 /* Debug */,
+				BF618CB626347FCF0008A8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF618C8126347FCD0008A8F7 /* Project object */;
+}
