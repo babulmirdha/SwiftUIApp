@@ -35,16 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF618C8926347FCD0008A8F7 /* AlorFeriIosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlorFeriIosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF618C8926347FCD0008A8F7 /* SwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF618C8C26347FCD0008A8F7 /* AlorFeriIosAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlorFeriIosAppApp.swift; sourceTree = "<group>"; };
 		BF618C8E26347FCD0008A8F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF618C9026347FCF0008A8F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF618C9326347FCF0008A8F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF618C9526347FCF0008A8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF618C9A26347FCF0008A8F7 /* AlorFeriIosAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlorFeriIosAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF618C9A26347FCF0008A8F7 /* SwiftUIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF618C9E26347FCF0008A8F7 /* AlorFeriIosAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlorFeriIosAppTests.swift; sourceTree = "<group>"; };
 		BF618CA026347FCF0008A8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF618CA526347FCF0008A8F7 /* AlorFeriIosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlorFeriIosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF618CA526347FCF0008A8F7 /* SwiftUIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF618CA926347FCF0008A8F7 /* AlorFeriIosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlorFeriIosAppUITests.swift; sourceTree = "<group>"; };
 		BF618CAB26347FCF0008A8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF920B83263487DB00E72F72 /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
@@ -79,9 +79,9 @@
 		BF618C8026347FCD0008A8F7 = {
 			isa = PBXGroup;
 			children = (
-				BF618C8B26347FCD0008A8F7 /* AlorFeriIosApp */,
-				BF618C9D26347FCF0008A8F7 /* AlorFeriIosAppTests */,
-				BF618CA826347FCF0008A8F7 /* AlorFeriIosAppUITests */,
+				BF618C8B26347FCD0008A8F7 /* SwiftUIApp */,
+				BF618C9D26347FCF0008A8F7 /* SwiftUIAppTests */,
+				BF618CA826347FCF0008A8F7 /* SwiftUIAppUITests */,
 				BF618C8A26347FCD0008A8F7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		BF618C8A26347FCD0008A8F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF618C8926347FCD0008A8F7 /* AlorFeriIosApp.app */,
-				BF618C9A26347FCF0008A8F7 /* AlorFeriIosAppTests.xctest */,
-				BF618CA526347FCF0008A8F7 /* AlorFeriIosAppUITests.xctest */,
+				BF618C8926347FCD0008A8F7 /* SwiftUIApp.app */,
+				BF618C9A26347FCF0008A8F7 /* SwiftUIAppTests.xctest */,
+				BF618CA526347FCF0008A8F7 /* SwiftUIAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF618C8B26347FCD0008A8F7 /* AlorFeriIosApp */ = {
+		BF618C8B26347FCD0008A8F7 /* SwiftUIApp */ = {
 			isa = PBXGroup;
 			children = (
 				BF618C8C26347FCD0008A8F7 /* AlorFeriIosAppApp.swift */,
@@ -107,7 +107,7 @@
 				BF920B83263487DB00E72F72 /* BookData.swift */,
 				BF920B8B2634924A00E72F72 /* BookDetailsView.swift */,
 			);
-			path = AlorFeriIosApp;
+			path = SwiftUIApp;
 			sourceTree = "<group>";
 		};
 		BF618C9226347FCF0008A8F7 /* Preview Content */ = {
@@ -118,30 +118,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		BF618C9D26347FCF0008A8F7 /* AlorFeriIosAppTests */ = {
+		BF618C9D26347FCF0008A8F7 /* SwiftUIAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				BF618C9E26347FCF0008A8F7 /* AlorFeriIosAppTests.swift */,
 				BF618CA026347FCF0008A8F7 /* Info.plist */,
 			);
-			path = AlorFeriIosAppTests;
+			path = SwiftUIAppTests;
 			sourceTree = "<group>";
 		};
-		BF618CA826347FCF0008A8F7 /* AlorFeriIosAppUITests */ = {
+		BF618CA826347FCF0008A8F7 /* SwiftUIAppUITests */ = {
 			isa = PBXGroup;
 			children = (
 				BF618CA926347FCF0008A8F7 /* AlorFeriIosAppUITests.swift */,
 				BF618CAB26347FCF0008A8F7 /* Info.plist */,
 			);
-			path = AlorFeriIosAppUITests;
+			path = SwiftUIAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF618C8826347FCD0008A8F7 /* AlorFeriIosApp */ = {
+		BF618C8826347FCD0008A8F7 /* SwiftUIApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF618CAE26347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "AlorFeriIosApp" */;
+			buildConfigurationList = BF618CAE26347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "SwiftUIApp" */;
 			buildPhases = (
 				BF618C8526347FCD0008A8F7 /* Sources */,
 				BF618C8626347FCD0008A8F7 /* Frameworks */,
@@ -151,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = AlorFeriIosApp;
+			name = SwiftUIApp;
 			productName = AlorFeriIosApp;
-			productReference = BF618C8926347FCD0008A8F7 /* AlorFeriIosApp.app */;
+			productReference = BF618C8926347FCD0008A8F7 /* SwiftUIApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF618C9926347FCF0008A8F7 /* AlorFeriIosAppTests */ = {
+		BF618C9926347FCF0008A8F7 /* SwiftUIAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF618CB126347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "AlorFeriIosAppTests" */;
+			buildConfigurationList = BF618CB126347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "SwiftUIAppTests" */;
 			buildPhases = (
 				BF618C9626347FCF0008A8F7 /* Sources */,
 				BF618C9726347FCF0008A8F7 /* Frameworks */,
@@ -169,14 +169,14 @@
 			dependencies = (
 				BF618C9C26347FCF0008A8F7 /* PBXTargetDependency */,
 			);
-			name = AlorFeriIosAppTests;
+			name = SwiftUIAppTests;
 			productName = AlorFeriIosAppTests;
-			productReference = BF618C9A26347FCF0008A8F7 /* AlorFeriIosAppTests.xctest */;
+			productReference = BF618C9A26347FCF0008A8F7 /* SwiftUIAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BF618CA426347FCF0008A8F7 /* AlorFeriIosAppUITests */ = {
+		BF618CA426347FCF0008A8F7 /* SwiftUIAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF618CB426347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "AlorFeriIosAppUITests" */;
+			buildConfigurationList = BF618CB426347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "SwiftUIAppUITests" */;
 			buildPhases = (
 				BF618CA126347FCF0008A8F7 /* Sources */,
 				BF618CA226347FCF0008A8F7 /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				BF618CA726347FCF0008A8F7 /* PBXTargetDependency */,
 			);
-			name = AlorFeriIosAppUITests;
+			name = SwiftUIAppUITests;
 			productName = AlorFeriIosAppUITests;
-			productReference = BF618CA526347FCF0008A8F7 /* AlorFeriIosAppUITests.xctest */;
+			productReference = BF618CA526347FCF0008A8F7 /* SwiftUIAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF618C8426347FCD0008A8F7 /* Build configuration list for PBXProject "AlorFeriIosApp" */;
+			buildConfigurationList = BF618C8426347FCD0008A8F7 /* Build configuration list for PBXProject "SwiftUIApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF618C8826347FCD0008A8F7 /* AlorFeriIosApp */,
-				BF618C9926347FCF0008A8F7 /* AlorFeriIosAppTests */,
-				BF618CA426347FCF0008A8F7 /* AlorFeriIosAppUITests */,
+				BF618C8826347FCD0008A8F7 /* SwiftUIApp */,
+				BF618C9926347FCF0008A8F7 /* SwiftUIAppTests */,
+				BF618CA426347FCF0008A8F7 /* SwiftUIAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		BF618C9C26347FCF0008A8F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF618C8826347FCD0008A8F7 /* AlorFeriIosApp */;
+			target = BF618C8826347FCD0008A8F7 /* SwiftUIApp */;
 			targetProxy = BF618C9B26347FCF0008A8F7 /* PBXContainerItemProxy */;
 		};
 		BF618CA726347FCF0008A8F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF618C8826347FCD0008A8F7 /* AlorFeriIosApp */;
+			target = BF618C8826347FCD0008A8F7 /* SwiftUIApp */;
 			targetProxy = BF618CA626347FCF0008A8F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -426,9 +426,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"AlorFeriIosApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AlorFeriIosApp/Info.plist;
+				INFOPLIST_FILE = SwiftUIApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +447,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"AlorFeriIosApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AlorFeriIosApp/Info.plist;
+				INFOPLIST_FILE = SwiftUIApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,7 +468,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AlorFeriIosAppTests/Info.plist;
+				INFOPLIST_FILE = SwiftUIAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -479,7 +479,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlorFeriIosApp.app/AlorFeriIosApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIApp.app/SwiftUIApp";
 			};
 			name = Debug;
 		};
@@ -489,7 +489,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AlorFeriIosAppTests/Info.plist;
+				INFOPLIST_FILE = SwiftUIAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -500,7 +500,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlorFeriIosApp.app/AlorFeriIosApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIApp.app/SwiftUIApp";
 			};
 			name = Release;
 		};
@@ -509,7 +509,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AlorFeriIosAppUITests/Info.plist;
+				INFOPLIST_FILE = SwiftUIAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -528,7 +528,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AlorFeriIosAppUITests/Info.plist;
+				INFOPLIST_FILE = SwiftUIAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -545,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF618C8426347FCD0008A8F7 /* Build configuration list for PBXProject "AlorFeriIosApp" */ = {
+		BF618C8426347FCD0008A8F7 /* Build configuration list for PBXProject "SwiftUIApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF618CAC26347FCF0008A8F7 /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF618CAE26347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "AlorFeriIosApp" */ = {
+		BF618CAE26347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "SwiftUIApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF618CAF26347FCF0008A8F7 /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF618CB126347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "AlorFeriIosAppTests" */ = {
+		BF618CB126347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "SwiftUIAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF618CB226347FCF0008A8F7 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF618CB426347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "AlorFeriIosAppUITests" */ = {
+		BF618CB426347FCF0008A8F7 /* Build configuration list for PBXNativeTarget "SwiftUIAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF618CB526347FCF0008A8F7 /* Debug */,
